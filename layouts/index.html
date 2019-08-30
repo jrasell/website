@@ -1,0 +1,25 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            <h1>{{ .Site.Title }}</h1>
+
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            <div style="   word-wrap: break-word; width:800px;">
+                James Rasell is an infrastructure, operations and software engineer with over 10 years' experience. He has
+                worked in a wide variety of industries and currently specialises in distributed scheduling, Golang
+                development and operational maturity. He is active within the HashiCorp Nomad community, and has authored
+                a number of OSS projects such as Levant and Sherpa which complement the Nomad ecosystem.
+            </div>
+            <br>
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}

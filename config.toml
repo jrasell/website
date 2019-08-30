@@ -1,0 +1,31 @@
+baseURL = "https://rasell.systems/"
+DefaultContentLanguage = "en"
+title = "Rasell Systems"
+theme = "hello-friend-ng"
+
+[menu]
+  [[menu.main]]
+    identifier = "talks"
+    name       = "Talks"
+    url        = "talks/"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
+
+[params]
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/jrasell"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:james@rasell.systems"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/jrasell"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/jamesrasell/"
