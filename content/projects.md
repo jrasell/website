@@ -12,3 +12,4 @@ James authors, maintains and contributes to a number of open source software pro
 
 [**Sherpa**](https://github.com/jrasell/sherpa) is a horizontal job scaler for HashiCorp Nomad. It can be configured in a number of ways providing a flexible setup for a range of architectures and budgets. The server exposes an API which can be used to configure scaling polices and trigger scaling actions and can also run an internal autoscaler.
 
+[**Chemtrail**](https://github.com/jrasell/chemtrail) is a client node worker pool autoscaler for HashiCorp Nomad. It automatically scales based on resource allocation, ensuring cost efficiency as well as capacity to meet customer demand.
