@@ -8,6 +8,8 @@ James has spoken at a number of public events on subjects including infrastructu
 
 ### 2019
 
+**Distributed Configuration Management with Nomad** at 'JAX London'
+
 **[Distributed Configuration Management with Nomad](https://www.youtube.com/watch?v=F4MWgqM5FhI)** at 'HashiConf EU'
 
 ### 2018
